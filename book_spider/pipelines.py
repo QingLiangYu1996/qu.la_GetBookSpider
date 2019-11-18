@@ -16,8 +16,8 @@ class BookSpiderPipeline(object):
     def process_item(self, item, spider):
         #创建文件
 
-        with open(item['name']+'-'+item['author']+'.txt', 'w', encoding='utf-8') as f:
-            pass
+       # with open(item['name']+'-'+item['author']+'.txt', 'w', encoding='utf-8') as f:
+       #     pass
 
 
         if item['name'] not in self.result:
